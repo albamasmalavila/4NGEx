@@ -1,0 +1,33 @@
+producer_class	xtools.gsea.Gsea
+producer_timestamp	1588604980032
+param	zip_report	false
+param	num	100
+param	scoring_scheme	weighted
+param	norm	meandiv
+param	out	/Users/albamas/gsea_home/output/may04
+param	mode	Max_probe
+param	include_only_symbols	true
+param	set_max	500
+param	gmx	ftp.broadinstitute.org://pub/gsea/gene_sets/c5.bp.v7.1.symbols.gmt
+param	plot_top_x	20
+param	nperm	1000
+param	order	descending
+param	rpt_label	COAD_WGDvsNoWGD
+param	rnd_seed	timestamp
+param	set_min	15
+param	res	/Users/albamas/Documents/master_bioinformatica_UOC/3r_semestre/TFM/dades/analisi_COAD/GSEA/expression_dataset_B.txt
+param	create_svgs	false
+param	cls	/Users/albamas/Documents/master_bioinformatica_UOC/3r_semestre/TFM/dades/analisi_COAD/GSEA/classes_B.cls#WGD_versus_no_WGD
+param	sort	real
+param	create_gcts	false
+param	help	false
+param	save_rnd_lists	false
+param	median	false
+param	metric	Signal2Noise
+param	make_sets	true
+param	rnd_type	no_balance
+param	gui	false
+param	permute	gene_set
+param	collapse	No_Collapse
+
+file	/Users/albamas/gsea_home/output/may04/COAD_WGDvsNoWGD.Gsea.1588604980032/index.html
